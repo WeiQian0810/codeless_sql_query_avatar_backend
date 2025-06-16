@@ -1,0 +1,30 @@
+{
+  "name": "talking-avatar-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.0.1",
+    "axios": "^1.6.5",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "festival": "^1.0.1",
+    "get-audio-duration": "^4.0.1",
+    "google-tts-api": "^2.0.2",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.21",
+    "microsoft-cognitiveservices-speech-sdk": "^1.34.0",
+    "morgan": "~1.9.1",
+    "mp3-duration": "^1.1.0",
+    "node-wav": "^0.0.2",
+    "nodemon": "^3.0.2",
+    "pug": "^3.0.2",
+    "say": "^0.16.0",
+    "wavefile": "^11.0.0"
+  }
+}
