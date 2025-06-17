@@ -5,8 +5,8 @@ An AI-powered avatar that translates natural language questions into SQL queries
 
 ## Run
 ```
-$ npm install
-$ npm start
+$ pip install -r requirements.txt
+$ python app.py
 ```
 
 ## Backend
